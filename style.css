@@ -1,0 +1,230 @@
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#airbnb-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+#nav-logo {
+  width: 150px;
+  height: auto;
+}
+
+.airbnb-nav-links {
+  color: black;
+  padding: 0 10px;
+  font-size: 1.5em;
+}
+
+#hero-section {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg);
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-shadow {
+  background-color: rgba(000, 000, 000, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#hero-card {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-title {
+  font-size: 5em;
+}
+
+#hero-description {
+  font-size: 1.5em;
+  padding: 0 0 10px 0;
+}
+
+.button {
+  background: #ff5358;
+  border: none;
+  color: white;
+  padding: 12px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #e00007;
+}
+
+#airbnb-local-container {
+  background: #efefef;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 5px;
+}
+
+.local-card {
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  margin: 25px 5px;
+}
+
+.local-title {
+  background: lightgrey;
+  padding: 10px 15px;
+}
+
+.local-lower-container {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding: 15px;
+}
+
+.local-lower-img {
+}
+
+.local-lower-p {
+  font-size: 0.9rem;
+}
+
+#airbnb-featured-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+#featured-title {
+  padding: 5px;
+  font-size: 2.2rem;
+}
+
+#featured-description {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+#featured-card-container {
+  display: flex;
+}
+
+.featured-card {
+  margin: 20px 15px;
+}
+
+.card-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  height: 350px;
+  width: 400px;
+}
+
+.first {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg);
+}
+
+.second {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg);
+}
+
+.third {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg);
+}
+
+.card-image-tint {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(000, 000, 000, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.card-activities {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.card-bottom {
+  background-color: #efefef;
+  border: darkgrey solid 1px;
+  height: 100px;
+}
+
+.card-bottom-words {
+  width: 375px;
+  padding: 10px 10px;
+  color: black;
+  font-size: 0.9rem;
+}
+
+#bottom-footer {
+  background-color: rgb(31, 34, 35);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottom-footer-line {
+  width: 80%;
+  border-bottom: rgb(65, 59, 70) solid 2px;
+  margin-top: 50px;
+}
+
+#bottom-footer-copyright {
+  color: white;
+  text-align: center;
+  margin: 25px 0;
+}
+/* Colors */
+/* Redish / Pink: #ff5358 */
+/* Dark red for button hover: #e00007 */
+/* Very light gray: #efefef */
+
+/* Background image links */
+/* Hero: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg */
+/* Fitzroy: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg */
+/* St. Kilda: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg  */
+/* CBD: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg */
